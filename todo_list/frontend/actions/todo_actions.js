@@ -14,3 +14,6 @@ export const receiveTodo = (todo) => {
       todo: todo
   });
 };
+
+window.receiveTodo = receiveTodo;
+window.receiveTodos = receiveTodos;
